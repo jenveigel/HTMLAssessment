@@ -1,0 +1,58 @@
+h2, h3, h4, h5, h6 {
+  color: purple;
+  font-size: 1.5em;
+}
+
+table {
+  border-style: groove;
+  border-width: thick;
+  border-color: magenta;
+}
+
+th {
+  font-weight: bold;
+  color: teal;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+ul li, ol li {
+    list-style-type: square;
+}
+
+a:hover {
+  background-color: black;
+  color: aqua;
+  text-decoration: none;
+}
+
+blockquote {
+  background-color: darkgreen;
+  color: lavender;
+}
+
+#teamRoster > li:first-child{
+  background-image:  url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#teamRoster > li:last-child{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
+ul#checkbox-grid li {
+  list-style-type: none;
+}
+
+
+
+
+/*Your table should have bold/colored table headers, as well as a table border. Content should be centered in their respective blocks.*/
